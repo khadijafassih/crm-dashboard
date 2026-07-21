@@ -97,6 +97,6 @@ All design tokens (colors, radii, shadows) are defined once in `app/globals.css`
    ![Built dashboard — table pagination](./Screenshots/dashboard-table.png)
    
    **Built dashboard** (Mobile, live)
-   ![Built dashboard — mobile sidebar drawer](./screenshots/MobileSidebar.jpeg)
-   ![Built dashboard — mobile view 1](./screenshots/MobileDashboard1.jpeg)
-   ![Built dashboard — mobile view 2](./screenshots/MobileDashboard2.jpeg)
+   ![Built dashboard — mobile sidebar drawer](./Screenshots/MobileSidebar.jpeg)
+   ![Built dashboard — mobile view 1](./Screenshots/MobileDashboard1.jpeg)
+   ![Built dashboard — mobile view 2](./Screenshots/MobileDashboard2.jpeg)
