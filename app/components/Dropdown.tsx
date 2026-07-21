@@ -46,7 +46,7 @@ export default function Dropdown({ value, options, onChange, prefix, ariaLabel }
       </button>
 
       {open && (
-        <div className="absolute right-0 z-20 mt-1.5 w-40 bg-surface rounded-sm shadow-card overflow-hidden">
+        <div className="absolute left-0 sm:left-auto sm:right-0 z-20 mt-1.5 w-40 max-w-[calc(100vw-2rem)] bg-surface rounded-sm shadow-card overflow-hidden">
           {options.map((option) => (
             <button
               key={option.value}
