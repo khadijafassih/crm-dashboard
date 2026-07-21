@@ -1,0 +1,93 @@
+{
+  "brand": {
+    "name": "Dashboard",
+    "version": "v.01"
+  },
+  "nav": {
+    "ariaLabel": "Huvudnavigering",
+    "dashboard": "Instrumentpanel",
+    "product": "Produkt",
+    "customers": "Kunder",
+    "income": "Inkomst",
+    "promote": "Marknadsför",
+    "help": "Hjälp"
+  },
+  "proCard": {
+    "title": "Uppgradera till PRO för att få tillgång till alla funktioner!",
+    "cta": "Skaffa Pro nu!"
+  },
+  "user": {
+    "name": "Evano",
+    "role": "Projektledare"
+  },
+  "dashboard": {
+    "title": "Kunder",
+    "subtitle": "Hantera dina kundrelationer"
+  },
+  "metrics": {
+    "totalCustomers": "Totalt antal kunder",
+    "members": "Medlemmar",
+    "activeNow": "Aktiva nu",
+    "thisMonth": "denna månad",
+    "activeUser": "Aktiv användare"
+  },
+  "table": {
+    "name": "Kundnamn",
+    "company": "Företag",
+    "phoneNumber": "Telefonnummer",
+    "email": "E-post",
+    "country": "Land",
+    "status": "Status",
+    "sortBy": "Sortera efter :",
+    "filterBy": "Filtrera efter :",
+    "newest": "Nyast",
+    "oldest": "Äldst",
+    "filterLabel": "Filtrera efter status",
+    "sortLabel": "Sortera kunder"
+  },
+  "search": {
+    "placeholder": "Sök"
+  },
+  "filter": {
+    "label": "Status",
+    "all": "Alla",
+    "active": "Aktiv",
+    "inactive": "Inaktiv",
+    "pending": "Väntande"
+  },
+  "status": {
+    "active": "Aktiv",
+    "inactive": "Inaktiv",
+    "pending": "Väntande"
+  },
+  "pagination": {
+    "previous": "Föregående",
+    "next": "Nästa",
+    "showing": "Visar",
+    "to": "till",
+    "of": "av",
+    "results": "resultat",
+    "rowsPerPage": "Rader per sida"
+  },
+  "empty": {
+    "title": "Inga kunder hittades",
+    "description": "Inga kunder matchar din sökning eller ditt filter. Försök justera dina kriterier.",
+    "clearFilters": "Rensa filter"
+  },
+  "language": {
+    "label": "Språk",
+    "en": "Engelska",
+    "sv": "Svenska"
+  },
+  "customers": {
+    "allCustomers": "Alla kunder",
+    "activeMembers": "Aktiva medlemmar"
+  },
+  "greeting": "Hej {name} 👋,",
+  "sidebar": {
+    "expandAriaLabel": "Expandera sidofältet",
+    "collapseAriaLabel": "Dölj sidofältet",
+    "openAriaLabel": "Öppna navigationsmenyn",
+    "closeAriaLabel": "Stäng navigationsmenyn"
+  }
+}

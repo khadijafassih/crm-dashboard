@@ -1,26 +1,80 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+
+  --color-background: #F5F6FF;
+  --color-surface: #ffffff;
+  --color-surface-alt: #F9FBFF;
+
+  --color-foreground: #292D32;
+  --color-muted-foreground: #9197B3;
+
+  --color-primary: #5932EA;
+  --color-primary-foreground: #ffffff;
+  --color-primary-shadow: #5932EA26;
+
+  --color-border: #EEEEEE;
+
+  --color-success: #00B087;
+  --color-success-icon: #00AC4F;
+  --color-success-bg: #16C09826;
+  --color-success-light: #DCFCE7;
+  --color-warning: #F4A100;
+  --color-warning-bg: #FFC10733;
+  --color-destructive: #DF0404;
+  --color-destructive-bg: #FFC5C54D;
+  --color-destructive-light: #FFE4E6;
+
+  --color-sidebar: #ffffff;
+  --color-sidebar-active: #5932EA;
+  --color-sidebar-active-bg: #F5F6FF;
+  --color-sidebar-hover: #F5F6FF;
+
+  --color-pro-card-from: #EAABF4;
+  --color-pro-card-via: #7444EC;
+  --color-pro-card-to: #5932EA;
+
+  --radius: 0.5rem;
+  --radius-lg: 1.875rem;
+  --radius-full: 9999px;
+
+  --shadow-card: 0px 10px 60px 0px #E2ECF980;
+  --shadow-nav-active: 0 4px 12px 0 #5932EA26;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+@layer base {
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    background-color: var(--color-background);
+    color: var(--color-foreground);
+    font-family: var(--font-sans), sans-serif;
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+/* Sidebar pro-card gradient */
+.bg-pro-card {
+  background: linear-gradient(
+    135deg,
+    var(--color-pro-card-from),
+    var(--color-pro-card-via),
+    var(--color-pro-card-to)
+  );
+}
+
+/* Nav active shadow */
+.shadow-nav-active {
+  box-shadow: var(--shadow-nav-active);
+}
+
+/* Help icon ? */
+.help-icon-label {
+  font-size: 6px;
+  margin-top: -1px;
+  margin-bottom: 2px;
 }

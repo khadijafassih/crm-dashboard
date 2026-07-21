@@ -1,0 +1,93 @@
+{
+  "brand": {
+    "name": "Dashboard",
+    "version": "v.01"
+  },
+  "nav": {
+    "ariaLabel": "Main navigation",
+    "dashboard": "Dashboard",
+    "product": "Product",
+    "customers": "Customers",
+    "income": "Income",
+    "promote": "Promote",
+    "help": "Help"
+  },
+  "proCard": {
+    "title": "Upgrade to PRO to get access all Features!",
+    "cta": "Get Pro Now!"
+  },
+  "user": {
+    "name": "Evano",
+    "role": "Project Manager"
+  },
+  "dashboard": {
+    "title": "Customers",
+    "subtitle": "Manage your customer relationships"
+  },
+  "metrics": {
+    "totalCustomers": "Total Customers",
+    "members": "Members",
+    "activeNow": "Active Now",
+    "thisMonth": "this month",
+    "activeUser": "Active user"
+  },
+  "table": {
+    "name": "Customer Name",
+    "company": "Company",
+    "phoneNumber": "Phone Number",
+    "email": "Email",
+    "country": "Country",
+    "status": "Status",
+    "sortBy": "Sort by :",
+    "filterBy": "Filter by :",
+    "newest": "Newest",
+    "oldest": "Oldest",
+    "filterLabel": "Filter by status",
+    "sortLabel": "Sort customers"
+  },
+  "search": {
+    "placeholder": "Search"
+  },
+  "filter": {
+    "label": "Status",
+    "all": "All",
+    "active": "Active",
+    "inactive": "Inactive",
+    "pending": "Pending"
+  },
+  "status": {
+    "active": "Active",
+    "inactive": "Inactive",
+    "pending": "Pending"
+  },
+  "pagination": {
+    "previous": "Previous",
+    "next": "Next",
+    "showing": "Showing",
+    "to": "to",
+    "of": "of",
+    "results": "results",
+    "rowsPerPage": "Rows per page"
+  },
+  "empty": {
+    "title": "No customers found",
+    "description": "No customers match your current search or filter. Try adjusting your criteria.",
+    "clearFilters": "Clear filters"
+  },
+  "language": {
+    "label": "Language",
+    "en": "English",
+    "sv": "Swedish"
+  },
+  "customers": {
+    "allCustomers": "All Customers",
+    "activeMembers": "Active Members"
+  },
+  "greeting": "Hello {name} 👋,",
+  "sidebar": {
+    "expandAriaLabel": "Expand sidebar",
+    "collapseAriaLabel": "Collapse sidebar",
+    "openAriaLabel": "Open navigation menu",
+    "closeAriaLabel": "Close navigation menu"
+  }
+}
