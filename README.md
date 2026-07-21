@@ -3,7 +3,7 @@
 A Next.js (App Router) implementation of a customer-management dashboard, converted from a Figma design. Built with TypeScript, Tailwind CSS, and `next-intl` for internationalisation (English / Swedish).
 
 **Live demo:** _add your Vercel URL here_
-**Repository:** _add your GitHub URL here_
+**Repository:** (https://github.com/khadijafassih/crm-dashboard)
 
 ## Running locally
 
