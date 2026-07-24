@@ -9,8 +9,8 @@ A Next.js (App Router) implementation of a customer-management dashboard, conver
 ## Running locally
 
 ```bash
-git clone <your-repo-url>
-cd <your-repo-folder>
+git clone <https://github.com/khadijafassih/crm-dashboard>
+cd <crm-dashboard>
 npm install
 npm run dev
 ```
